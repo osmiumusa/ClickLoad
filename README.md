@@ -2,6 +2,9 @@
 A Bootstrap enhancement to make buttons that cause AJAX to be prettier.
 
 ##How to use
+
+ClickLoad requires jQuery and Bootstrap 3. Make sure you have those on your page.
+
 To use ClickLoad, include it on your page and attach it to a button. It takes the place of the jQuery click handler and handles all of Bootstrap's contextual classes for you depending on the result of the AJAX request it makes.
 
 Say you have a button with the ID `testbutton`. To enable ClickLoad on that button, simply:
